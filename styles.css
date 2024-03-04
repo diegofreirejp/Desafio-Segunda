@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, #454344, #292728);
+    min-height: 100vh;
+}
+
+img {
+    display: block;
+    margin-bottom: 30px;
+    margin-top: 80px;
+}
+
+input {
+    box-sizing: border-box;
+    margin: 0 auto 20px;
+    height: 30px;
+    width: 240px;
+    background-color: rgb(200, 200, 200);
+}
+
+label {
+    text-align: center;
+    display: block;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    font-family: sans-serif;
+    font-weight: bold;
+    background-color: white;
+    border-radius: 15%;
+    height: 35px;
+    width: 70px;
+}
